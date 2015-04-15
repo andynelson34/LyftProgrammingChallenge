@@ -16,7 +16,7 @@ def findCircDist(pointA, pointB):
     deltaLong = longA - longB
 
     # Use the great circle distance formula to find the distance between the
-    # two points
+    # two points (multiplying by mean Earth radius, in miles)
     angle = math.atan2(math.sqrt(math.pow((math.cos(latB) *
                                            math.sin(deltaLong)), 2) +
                                  math.pow((math.cos(latA) * math.sin(latB) -
