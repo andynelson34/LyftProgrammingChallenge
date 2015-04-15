@@ -25,7 +25,7 @@ def findCircDist(pointA, pointB):
                     (math.sin(latA) * math.sin(latB) + math.cos(latA) *
                      math.cos(latB) * math.cos(deltaLong)))
 
-    return 3963.1676 * angle
+    return 3958.76 * angle
 
 # Determines the shorter of two detour distances, given two start and two end
 # points (latitude/longitude pairs) as tuples or lists.
